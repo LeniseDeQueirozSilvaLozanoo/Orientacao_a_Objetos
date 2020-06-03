@@ -2,15 +2,16 @@ package exercicios_orientacao_a_objetos;
 
 public class Exercicio_05_Quadrado {
 	
-	double base;
-	double altura;
+	private double base;
+	private double altura;
 	
+
+	public Exercicio_05_Quadrado() {
+	}
+		
 	public Exercicio_05_Quadrado(double base, double altura) {
 		this.base = base;
 		this.altura = altura;
-	}
-
-	public Exercicio_05_Quadrado() {
 	}
 	
 	public double perimetro(double base, double altura) {

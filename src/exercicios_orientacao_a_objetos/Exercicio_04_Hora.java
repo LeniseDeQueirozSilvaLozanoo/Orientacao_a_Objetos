@@ -2,9 +2,9 @@ package exercicios_orientacao_a_objetos;
 
 public class Exercicio_04_Hora {
 	
-	int horas;
-	int minutos;
-	int segundos;
+	private int horas;
+	private int minutos;
+	private int segundos;
 	
 	public Exercicio_04_Hora(int horas, int minutos, int segundos) {
 		this.horas = validaHoras(horas);
